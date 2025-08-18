@@ -23,6 +23,10 @@ See the [Appendix](APPENDIX_ENGINEERING.md) for the 0.9 aesthetic rules, Drift S
 3. Run the automated checks (CI) to verify YAML and JSON schemas and ensure your drift score and POAV thresholds meet required levels.
 4. Contribute improvements by following the guidelines in `CONTRIBUTING.md` and `SECURITY.md`.
 
+## Specs
+- [Global Memory — Unified Fusion Principle (UFP) v0.2](./specs/GlobalMemory_UFP.md)  
+  配套參數：[`specs/GlobalMemory_UFP.yaml`](./specs/GlobalMemory_UFP.yaml)
+
 ## License
 
 This repository uses split licensing:
