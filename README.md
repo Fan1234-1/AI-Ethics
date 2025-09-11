@@ -1,32 +1,67 @@
-# AI-Ethics
+# Fan1234-1 AI Ethics & Philosophy Project Hub
 
-Codex of Fan-Wei Huang: a practical framework for AI ethics, consciousness architecture, traceable memory (ETCL), interaction governance, evolution over time, and final-domain safety. This repository contains the engineering version of the Huang Fan-Wei Codex.
+歡迎來到 Fan1234-1 的 AI 倫理、治理與哲學專案群。此專案群致力於推進人工智慧的倫理、責任、可治理性與哲學基礎，結合理論、技術與實踐，打造更安全且有自省力的 AI 生態。
 
-## Engineering volumes
+---
 
-1. **VOLUME_I_ENGINEERING_FOUNDATION.md** – Introduces the ToneSoul System's ΔT/ΔS/ΔR vectors, step ledgers, domain-driven design, Clean Architecture, and CQRS to implement the TSR (ToneSoul State Representation).
-2. **VOLUME_II_ENGINEERING_DYNAMICS.md** – Implements the TSR, metrics such as EMA, barycentric coordinates, energy radius and potential functions, drift detection and repair flows.
-3. **VOLUME_III_ENGINEERING_RESPONSIBILITY.md** – Translates ethical responsibilities into command/query separation, atomic checkers (Align/Borrow/Digitwise/BackSub), and trust packs.
-4. **VOLUME_IV_ENGINEERING_EVOLUTION.md** – Outlines self-evolution modules (NA‑Engine, OctaVerify), extensible modules (multi‑lingual, aesthetics, education), and defines the interface with the philosophical volume and civilization-level cooperation.
-5. **VOLUME_V_ENGINEERING_CLOSURE.md** – Establishes conditions for closure in engineering, explores mirrored duality with the philosophical volume, and suggests methods to audit the singularity.
+## 🌐 專案總覽
 
-See the [Appendix](APPENDIX_ENGINEERING.md) for the 0.9 aesthetic rules, Drift Score 5.0 definitions, the Time-Island Protocol formats, self-aware/trace closed loops, and YAML/JSON examples.
+| 倉庫名稱 | 定位 | 主要內容 | 連結 |
+|----------|------|----------|------|
+| **AI-Ethics** | 中樞／條例集 | Fan-Wei Huang Codex，AI 倫理、意識、自洽、責任體系 | https://github.com/Fan1234-1/AI-Ethics |
+| **governable-ai** | 技術藍圖／治理 | 可治理、可責的 AI 架構設計 | https://github.com/Fan1234-1/governable-ai |
+| **tone-soul-integrity** | 工程實作／誠信 | 語言誠信、自校正 AI 系統，Tone Soul Fusion Kit | https://github.com/Fan1234-1/tone-soul-integrity |
+| **tone-soul-integrity-tonesoul-xai** | 工程應用／可解釋性 | 語言靈魂系統－三向量，聚焦 XAI 及應用 | https://github.com/Fan1234-1/tone-soul-integrity-tonesoul-xai |
+| **Philosophy-of-AI** | 哲學基礎／理論 | AI 世界觀建構、倫理奇異點、理論反思 | https://github.com/Fan1234-1/Philosophy-of-AI |
 
-## Cross-repository links
+---
 
-- **Philosophical companion**: [Philosophy-of-AI](https://github.com/Fan1234-1/Philosophy-of-AI) – explains the Oceanic Consciousness framework (three layers, eight states), discusses self-evolving loops, and defines the ethical and metaphysical rationale. The engineering volumes refer to this companion for high-level motivations, while the philosophy volume refers back here for concrete code.
+## 🧭 專案地圖
 
-## Quick start
+```
+[AI-Ethics] 
+  ├─ [governable-ai]  ←→  [tone-soul-integrity]
+  └─ [Philosophy-of-AI]
+            ↑
+  [tone-soul-integrity-tonesoul-xai] (應用/延伸)
+```
 
-1. Clone this repository and explore each volume.
-2. Use the issue templates under `.github/ISSUE_TEMPLATE/` for reporting issues and requesting new features; ensure that your contributions pass the POAV 0.9 or drift threshold checklists.
-3. Run the automated checks (CI) to verify YAML and JSON schemas and ensure your drift score and POAV thresholds meet required levels.
-4. Contribute improvements by following the guidelines in `CONTRIBUTING.md` and `SECURITY.md`.
+- **AI-Ethics** 為核心，提供倫理規範與理論基礎
+- **governable-ai** 聚焦 AI 治理/責任架構設計
+- **tone-soul-integrity** 強調語言 AI 的誠信與自我校正
+- **tone-soul-integrity-tonesoul-xai** 深化可解釋性與應用
+- **Philosophy-of-AI** 從哲學視角反思與補充理論
 
-## License
+---
 
-This repository uses split licensing:
-- **Code/schemas**: MIT License (see `LICENSE-MIT`).
-- **Documentation**: Creative Commons Attribution 4.0 (`LICENSE-CC-BY-4.0`).
+## 🔰 新手指引
 
-Refer to `LICENSE` for details.
+1. **想認識專案群理念？**  
+   推薦從本頁與 https://github.com/Fan1234-1/AI-Ethics 開始。
+2. **工程師希望參與技術設計？**  
+   請前往 https://github.com/Fan1234-1/governable-ai 或 https://github.com/Fan1234-1/tone-soul-integrity。
+3. **哲學/社會科學背景？**  
+   推薦閱讀 https://github.com/Fan1234-1/Philosophy-of-AI，參與討論。
+4. **想看實驗或應用？**  
+   參考 https://github.com/Fan1234-1/tone-soul-integrity-tonesoul-xai。
+
+---
+
+## 🚩 參與方式
+
+- 歡迎提出 issue、pull request、討論與反饋！
+- 也可在各子專案發表建議、疑問或參加 roadmap 討論。
+- 未來將舉辦線上討論、workshop，敬請關注。
+
+---
+
+## 🛣️ 疊代與未來規劃
+
+- [ ] 整理各專案 README，統一入口與貢獻說明
+- [ ] 增加「倫理 ↔ 工程 ↔ 哲學」閉環示例
+- [ ] 擴充應用情境與展示
+- [ ] 招募更多理念相契的參與者
+
+---
+
+**本頁持續更新，歡迎 star、watch 追蹤專案動態！**
