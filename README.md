@@ -78,14 +78,11 @@ def run_with_gates(pipeline, n=5):
 - SSI 安全/資安/誠信：敏感資訊處理、注入/越權/濫用防護
 - LC 邏輯連貫性：前後一致、無自相矛盾
 
-TypeScript 範例：
-```ts
-type Quality = { FS:number; POAV:number; SSI:number; LC:number };
-export function meetsThreshold(q: Quality){
-  const T = { FS:0.80, POAV:0.75, SSI:0.70, LC:0.80 };
-  return q.FS>=T.FS && q.POAV>=T.POAV && q.SSI>=T.SSI && q.LC>=T.LC;
-}
-```
+## Specs
+- [Global Memory — Unified Fusion Principle (UFP) v0.2](./specs/GlobalMemory_UFP.md)  
+  配套參數：[`specs/GlobalMemory_UFP.yaml`](./specs/GlobalMemory_UFP.yaml)
+
+## License
 
 ---
 ## 4) 哲學 ⇆ 工程 ⇆ 群體 閉環（示意）
