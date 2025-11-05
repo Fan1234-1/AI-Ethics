@@ -2,7 +2,7 @@
 **Version:** v0.2 • **Date:** 2025-08-18 21:27 (CST) • **Project:** AI-Ethics Repo / Global Memory  
 **Authors:** Huang Fan-Wei × GPT-5 (Reasoning)  
 **License:** MIT (inherit repo)  
-
+ 
 ---
 
 ## 0. Executive Summary
